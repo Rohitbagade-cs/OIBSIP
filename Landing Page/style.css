@@ -1,0 +1,327 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family:Okra, Helvetica, sans-serif ;
+}
+
+.nv{
+    background-image:url(https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png) ;
+    width: 100%;
+    height: 490px;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+    font-family: 'Nunito Sans', sans-serif;
+    overflow: hidden;
+    
+}
+nav p{
+    display: flex;
+    color: white;
+    padding-top: 22px;
+    padding-left: 220px;
+    font-weight: lighter;
+}
+.right{
+    display: flex;
+    color: white;
+    padding-top: 22px;
+    padding-right: 200px;
+    gap: 35px;
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+
+.logo{
+    margin-top: -400px;
+    text-align: center;    
+}
+.logo img{
+    width: 19%;
+    margin-top: 45px;   
+}
+.text{
+    text-align: center;
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: lighter;
+    margin-top: 30px;
+    font-size: 20px;
+    gap: 17px;
+}
+.search{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.search input {
+    width: 776px;
+    height: 10px;
+    padding: 22px;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+}
+
+.middle{
+    text-align: center;
+    margin-left: 195px;
+    margin-right: 195px;
+}
+
+.card{
+    
+    display: flex;
+    margin-top: 175px;
+    justify-content: space-around;
+}
+.crd{
+    border-radius: 15px;
+    position: relative;
+    margin: 3px 5px;
+}
+
+.card .crd img{
+    width: 350px;
+    height: 220px;
+    border-radius: 15px;
+    padding: 2px;
+    z-index: -1;
+}
+.white{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 3px;
+    align-items:start ;
+    height: 20%;
+    width: 322px;
+    z-index: 2;
+    background-color: white;
+    border-radius: 0 0 15px 15px;
+    padding: 15px;
+}
+.white h3 {
+    
+    text-align: start;
+    margin-left: 10px;
+    font-family: Okra, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    font-weight: lighter;
+    line-height: 30px;
+
+}
+.white p{
+    font-size: 17px;
+    text-align: start;
+    margin-left: 10px;
+    font-family: Okra, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: gray;
+}
+
+
+.coll .txt{
+    text-align: start;
+    margin-top: 60px;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.txt div{
+    display: flex;
+    justify-content: space-between;
+}
+.txt span{
+    color: #ef4f5f9c;
+    font-family: Okra, Helvetica, sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+.txt h1{
+    font-size: 36px;
+    font-family: Okra, Helvetica, sans-serif;
+    font-weight: 500;
+    color: #1c1c1c;
+    line-height: 63px;
+}
+.txt p{
+    font-size: 18px;
+    font-family: Okra, Helvetica, sans-serif;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+.rest{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 5px;
+}
+.rest p{
+    font-size: 18px;
+    z-index: 2;
+    position: absolute;
+    color: white;
+    margin-top: 270px;
+    font-family: Okra, Helvetica, sans-serif;
+    line-height: 20px;
+    font-weight: lighter;
+    text-align: start;
+    padding-left: 20px;
+    width: 230px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.rest span{
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.rest img{
+    height: 320px;
+    width: 265px;
+    border-radius: 7px;
+    z-index: -1;
+    position: relative;
+}
+
+.app{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 96px;
+    margin-left: 165px;
+    margin-right: 165px;
+
+}
+.app img{
+    width: 53%;
+
+
+}
+.download{
+    /* width: 600px; */
+    text-align: start;
+}
+.app h1{
+    font-family: Okra, Helvetica, sans-serif;
+    font-size: 45px;
+    font-weight: lighter;
+    line-height: 36px;
+    white-space: nowrap;
+    padding-top: 33px;
+    letter-spacing: 2px;
+
+}
+.app p{
+    font-family:Okra, Helvetica, sans-serif;
+    line-height:29px ;
+    width: 470px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 18px;
+    color: #363636;
+    font-weight: lighter;
+}
+.choose label1{
+    font-family:Okra, Helvetica, sans-serif;
+    font-size: 16px;
+    padding-right: 50px;
+    font-weight: lighter;  
+    
+}
+.radio{
+    transform: scale(1.5);
+}
+.link input{
+    width: 280px;
+    height: 45px;
+    margin-top: 20px;
+    padding-left: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    border: 1px solid gray;
+}
+.link button{
+    height: 45px;
+    width: 170px;
+    background-color: rgba(202, 48, 43, 0.823);
+    border-radius: 5px;
+    font-size: 15px;
+    color: white;
+    border: 1px solid white;
+    
+}
+.choose p{
+    font-size: 15px;
+    color: gray;
+}
+.store{
+    display: flex;
+    justify-content: space-between;
+    justify-content: start;
+}
+.store img{
+    margin-top: -15px;
+    width: 130px;
+    padding-right: 20px;
+}
+
+.button h1{
+    text-align: start;
+    font-size: 35px;
+    line-height: 40px;
+    color: #363636;
+    font-weight: lighter;
+    padding-top: 50px;
+    padding-bottom: 30px;
+
+}
+.button button{
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    width: 100%;
+    margin: 20px;
+    font-size: 20px;
+    border: 1px solid rgba(128, 128, 128, 0.227);
+    background-color: rgb(255, 254, 254);
+    border-radius: 5px;
+    font-weight: lighter;
+    color: #1c1c1c;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    text-align:start;
+    margin-top: 100px;
+    justify-content: space-between;
+}
+.list h2{
+    display: flex;
+    height: 40px;
+    color: #363636;
+    font-weight:540;
+    font-size: 15px;
+    font-family: Okra, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    margin-top: 30px;
+    
+}
+.list p{
+    line-height: 25px;
+}
+
+hr{
+    margin-bottom: 40px;
+    margin-top: 50px;
+}
+.copyright p{
+    margin-bottom: 20px;
+    color: gray;
+}
