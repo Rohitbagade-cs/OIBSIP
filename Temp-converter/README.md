@@ -1,1 +1,1 @@
-reliable-panda-fdaa10.netlify.app
+https://reliable-panda-fdaa10.netlify.app/
